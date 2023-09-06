@@ -47,6 +47,7 @@ a {
 
 #content {
     position: relative;
+    box-shadow: -5px;
     margin-top: 10px;
     margin-bottom: 2px;
     display: flex;
@@ -73,6 +74,7 @@ a {
 
 #about-us {
     position: relative;
+    box-shadow: -5px -5px gray;
     background-color: #FFFFFF;
     padding: 40px;
     margin-top: 5px;
