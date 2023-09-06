@@ -31,14 +31,14 @@ a {
     position: relative;
 }
 
-#top-nav ul {
+#banner ul {
     list-style: none;
     float: right;
     margin: 20px;
     padding: 5px;
 }
 
-#top-nav li {
+#banner li {
     background-color: #805215;
     font-weight: bolder;
     display: inline;
@@ -46,6 +46,11 @@ a {
 }
 
 #content {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-evenly;
     overflow: auto;
 }
 
@@ -67,10 +72,22 @@ a {
 }
 
 #about-us {
-    width: 400px;
+    position: relative;
     background-color: #FFFFFF;
     padding: 40px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
+#about-us h1 {
+    text-align: center;
+}
+
+#about-us p {
+    text-justify: justify;
+    font-weight: bold;
 }
 
 .column1, .column2, .column3 {
