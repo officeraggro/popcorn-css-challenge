@@ -4,22 +4,80 @@ button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
 
-.banner {
+html {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #D4A76A;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+#banner {
     background-color: #FFDBAA;
     height: 180px;
+
 }
 
-.main-body {
-    background-color: #D4A76A;
-    height: auto;
-}
-
-.info {
-    background-color: #FFFFFF;
-}
-
-#airline {
-    color: #553100;
+#banner h1 {
+    padding: 20px;
+    color:#553100;
     font-size: 26pt;
-    font-family:Arial, Helvetica, sans-serif
+    position: relative;
+}
+
+#top-nav ul {
+    list-style: none;
+    float: right;
+    margin: 20px;
+    padding: 5px;
+}
+
+#top-nav li {
+    background-color: #805215;
+    font-weight: bolder;
+    display: inline;
+    padding: 2em;
+}
+
+#content {
+    overflow: auto;
+}
+
+#content h1 {
+    text-align: center;
+}
+
+#content p {
+    text-justify: justify;
+    font-weight: bold;
+}
+
+#link-button {
+    background-color: #805215;
+    font-weight: bold;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+#about-us {
+    width: 400px;
+    background-color: #FFFFFF;
+    padding: 40px;
+
+}
+
+.column1, .column2, .column3 {
+    width: 280px;
+    height: 200px;
+    float: left;
+    margin: 100px;
+    padding: 40px;
+    background-color: #FFFFFF;
 }
